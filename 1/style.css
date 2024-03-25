@@ -1,0 +1,64 @@
+body {
+    background-image: url('Cloudy.svg');
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+
+#button_logout, #button_back {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.card {
+    width: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    float: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.content {
+    padding: 10px;
+}
+
+
+#scores {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#scores td, #scores th {
+    border: 1px solid #3E9ACD;
+    padding: 10px;
+    text-align: center;
+}
+
+#scores th {
+    background-color: #F7D358;
+    color: #3E9ACD;
+    font-weight: bold;
+}
+
+#scores tr:nth-child(even) {
+    background-color: #E0FFFF;
+}
+
+#scores tr:hover {
+    background-color: #A9D0F5;
+}
