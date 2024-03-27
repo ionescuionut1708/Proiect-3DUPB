@@ -118,5 +118,6 @@ Acest fișier servește ca backend pentru aplicația web, gestionând interacți
    - Nu există o protecție împotriva falsificării cererilor între site-uri (CSRF) implementată în aplicație. Aceasta poate permite atacatorilor să efectueze acțiuni nedorite în numele utilizatorilor autentificați.
    - Ar trebui să implementezi un mecanism de protecție CSRF, cum ar fi tokenuri CSRF, pentru a preveni atacurile CSRF.
 
-##Contribuții:
+## Contribuții:
+
 Contribuțiile sunt binevenite! Dacă găsiți alte bug-uri, aveți sugestii de îmbunătățire sau doriți să adăugați noi funcționalități, vă rugăm să deschideți un issue sau să trimiteți un pull request.
