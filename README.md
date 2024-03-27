@@ -90,7 +90,7 @@ Iată o explicație a funcționalităților principale ale acestui fișier:
 
 Acest fișier servește ca backend pentru aplicația web, gestionând interacțiunile cu baza de date, autentificarea utilizatorilor, înregistrarea și furnizarea de date pentru frontend prin intermediul API-urilor RESTful.
 
-##Bug-uri și vulnerabilități:
+## Bug-uri și vulnerabilități:
 1. Parole în text simplu:
    - În fișierul `DBManager.py`, parolele utilizatorilor sunt stocate în text simplu în baza de date. Aceasta este o practică nesigură, deoarece oricine cu acces la baza de date poate vedea parolele. În schimb, ar trebui să folosești o funcție de hashing criptografică puternică (cum ar fi bcrypt) pentru a stoca hash-urile parolelor.
 
